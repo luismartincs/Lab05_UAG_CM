@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  Towns.h
 //  Lab05
 //
 //  Created by Luis de Jesus Martin Castillo on 27/06/16.
@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Start : UIViewController <UITableViewDataSource,UITableViewDelegate>
+@interface Towns : UIViewController
 
+@property (nonatomic) NSString *key;
 
 @end
-
