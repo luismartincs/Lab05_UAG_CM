@@ -21,7 +21,7 @@
             </objects>
             <point key="canvasLocation" x="-200" y="466"/>
         </scene>
-        <!--Start-->
+        <!--Estados-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="Start" sceneMemberID="viewController">
@@ -30,7 +30,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="DQR-Nd-q6u">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="34" width="320" height="534"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
@@ -40,7 +40,7 @@
                             </tableView>
                         </subviews>
                     </view>
-                    <navigationItem key="navigationItem" id="rO3-O2-u50"/>
+                    <navigationItem key="navigationItem" title="Estados" id="rO3-O2-u50"/>
                     <connections>
                         <segue destination="uzL-aO-Byx" kind="push" identifier="Towns" id="Jxv-un-VvS"/>
                     </connections>
@@ -58,7 +58,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="cbo-w2-aRP">
-                                <rect key="frame" x="0.0" y="64" width="320" height="504"/>
+                                <rect key="frame" x="0.0" y="34" width="320" height="534"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.96078431372549022" green="0.96078431372549022" blue="0.96078431372549022" alpha="1" colorSpace="calibratedRGB"/>
                                 <connections>
@@ -97,7 +97,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.54000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zFp-XO-QUh">
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.54000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="11" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zFp-XO-QUh">
                                 <rect key="frame" x="20" y="300" width="280" height="117"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ante erat, dictum non risus quis, facilisis fringilla nisl. Mauris sed mauris enim. </string>
