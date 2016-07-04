@@ -15,6 +15,7 @@
 		A0259C391D21D854000E666B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0259C381D21D854000E666B /* Assets.xcassets */; };
 		A0259C3C1D21D854000E666B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0259C3A1D21D854000E666B /* LaunchScreen.storyboard */; };
 		A0620DB91D2B2CAF001ED58B /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = A0620DB81D2B2CAF001ED58B /* Map.m */; };
+		A0620DBB1D2B2E38001ED58B /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = A0620DBA1D2B2E38001ED58B /* Podfile */; };
 		A0D876141D21DE0A007C27A6 /* cellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D876121D21DE0A007C27A6 /* cellHome.m */; };
 		A0D876151D21DE0A007C27A6 /* cellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0D876131D21DE0A007C27A6 /* cellHome.xib */; };
 		A0D876181D21E10F007C27A6 /* Towns.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D876171D21E10F007C27A6 /* Towns.m */; };
@@ -65,6 +66,7 @@
 		A0259C3D1D21D854000E666B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A0620DB71D2B2CAF001ED58B /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
 		A0620DB81D2B2CAF001ED58B /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
+		A0620DBA1D2B2E38001ED58B /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = "<group>"; };
 		A0D876111D21DE0A007C27A6 /* cellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellHome.h; sourceTree = "<group>"; };
 		A0D876121D21DE0A007C27A6 /* cellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellHome.m; sourceTree = "<group>"; };
 		A0D876131D21DE0A007C27A6 /* cellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellHome.xib; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 				A0259C321D21D854000E666B /* Main.storyboard */,
 				A0259C381D21D854000E666B /* Assets.xcassets */,
 				A0259C3A1D21D854000E666B /* LaunchScreen.storyboard */,
+				A0620DBA1D2B2E38001ED58B /* Podfile */,
 				A0259C3D1D21D854000E666B /* Info.plist */,
 				A0259C351D21D854000E666B /* Lab05.xcdatamodeld */,
 				A0259C291D21D854000E666B /* Supporting Files */,
@@ -330,6 +333,7 @@
 				A0259C3C1D21D854000E666B /* LaunchScreen.storyboard in Resources */,
 				A0D876391D224CA3007C27A6 /* j4.jpg in Resources */,
 				A0D8763C1D224CA3007C27A6 /* j1.jpg in Resources */,
+				A0620DBB1D2B2E38001ED58B /* Podfile in Resources */,
 				A0D876591D225247007C27A6 /* m5.jpg in Resources */,
 				A0D876221D224003007C27A6 /* campeche.jpg in Resources */,
 				A0D8763B1D224CA3007C27A6 /* j2.jpg in Resources */,
