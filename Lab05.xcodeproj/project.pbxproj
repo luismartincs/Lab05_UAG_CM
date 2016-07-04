@@ -14,6 +14,7 @@
 		A0259C371D21D854000E666B /* Lab05.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A0259C351D21D854000E666B /* Lab05.xcdatamodeld */; };
 		A0259C391D21D854000E666B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0259C381D21D854000E666B /* Assets.xcassets */; };
 		A0259C3C1D21D854000E666B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0259C3A1D21D854000E666B /* LaunchScreen.storyboard */; };
+		A0620DB91D2B2CAF001ED58B /* Map.m in Sources */ = {isa = PBXBuildFile; fileRef = A0620DB81D2B2CAF001ED58B /* Map.m */; };
 		A0D876141D21DE0A007C27A6 /* cellHome.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D876121D21DE0A007C27A6 /* cellHome.m */; };
 		A0D876151D21DE0A007C27A6 /* cellHome.xib in Resources */ = {isa = PBXBuildFile; fileRef = A0D876131D21DE0A007C27A6 /* cellHome.xib */; };
 		A0D876181D21E10F007C27A6 /* Towns.m in Sources */ = {isa = PBXBuildFile; fileRef = A0D876171D21E10F007C27A6 /* Towns.m */; };
@@ -62,6 +63,8 @@
 		A0259C381D21D854000E666B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0259C3B1D21D854000E666B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0259C3D1D21D854000E666B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0620DB71D2B2CAF001ED58B /* Map.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Map.h; sourceTree = "<group>"; };
+		A0620DB81D2B2CAF001ED58B /* Map.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Map.m; sourceTree = "<group>"; };
 		A0D876111D21DE0A007C27A6 /* cellHome.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cellHome.h; sourceTree = "<group>"; };
 		A0D876121D21DE0A007C27A6 /* cellHome.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cellHome.m; sourceTree = "<group>"; };
 		A0D876131D21DE0A007C27A6 /* cellHome.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = cellHome.xib; sourceTree = "<group>"; };
@@ -171,6 +174,8 @@
 				A0D876171D21E10F007C27A6 /* Towns.m */,
 				A0D876241D2243FE007C27A6 /* Details.h */,
 				A0D876251D2243FE007C27A6 /* Details.m */,
+				A0620DB71D2B2CAF001ED58B /* Map.h */,
+				A0620DB81D2B2CAF001ED58B /* Map.m */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -370,6 +375,7 @@
 				A0D876181D21E10F007C27A6 /* Towns.m in Sources */,
 				A0D876141D21DE0A007C27A6 /* cellHome.m in Sources */,
 				A0259C2B1D21D854000E666B /* main.m in Sources */,
+				A0620DB91D2B2CAF001ED58B /* Map.m in Sources */,
 				A0D876261D2243FE007C27A6 /* Details.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
