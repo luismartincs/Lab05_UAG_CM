@@ -10,4 +10,9 @@
 
 @interface Map : UIViewController
 
+@property (nonatomic) NSString *latitude;
+@property (nonatomic) NSString *longitude;
+@property (nonatomic) NSString *place;
+@property (nonatomic) NSString *city;
+
 @end

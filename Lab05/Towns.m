@@ -26,6 +26,12 @@
     [self initController];
 }
 
+-(void)viewWillAppear:(BOOL)animated{
+    id<GAITracker> tracker = [[GAI sharedInstance] defaultTracker];
+    [tracker set:kGAIScreenName value:_key];
+    [tracker send:[[GAIDictionaryBuilder createScreenView] build]];
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -146,6 +152,7 @@
         destination.destinationTitle = [_towns objectForKey:_key][_index];
         destination.destinationDescription = [_townsDesc objectForKey:_key][_index];
         destination.destinationPhoto = [_townsImgs objectForKey:_key][_index];
+        destination.city = _key;
         
     }
 }

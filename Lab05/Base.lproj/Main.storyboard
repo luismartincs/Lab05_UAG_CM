@@ -106,11 +106,16 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="jTL-r3-oKU">
-                                <rect key="frame" x="128" y="488" width="65" height="30"/>
+                                <rect key="frame" x="110" y="486" width="101" height="37"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Ver Mapa"/>
+                                <state key="normal" title="Ver Mapa" backgroundImage="botonnext1.png">
+                                    <color key="titleColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted" backgroundImage="botonnext1.png">
+                                    <color key="titleColor" red="0.25882352939999997" green="0.25882352939999997" blue="0.25882352939999997" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
                                 <connections>
-                                    <segue destination="wZE-2c-tLD" kind="push" identifier="Map" id="beP-ZL-lIF"/>
+                                    <action selector="verMapa:" destination="Ef1-Ic-4ph" eventType="touchUpInside" id="9bO-dT-vOP"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -121,6 +126,7 @@
                         <outlet property="descriptionDetails" destination="zFp-XO-QUh" id="SGT-Dm-daO"/>
                         <outlet property="imageDetails" destination="JXB-Tv-SSK" id="EfJ-QQ-qWR"/>
                         <outlet property="titleDetails" destination="NDF-xC-HjK" id="DXL-p6-iz4"/>
+                        <segue destination="wZE-2c-tLD" kind="push" identifier="Map" id="Vr0-OF-hGV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IRN-TS-RyX" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -143,4 +149,7 @@
             <point key="canvasLocation" x="1616" y="466"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="botonnext1.png" width="200" height="60"/>
+    </resources>
 </document>
